@@ -36,17 +36,66 @@ void is_positive(int a){
 
 //EXERCICE 2
 int max_3 (int a, int b, int c){
-    //TODO
+        if (a > b && a > c){
+        return a;
+    }
+    else {
+        if (b > a && b > c)
+            return b;
+        else
+            return c;
+    }
 }
 
 //EXERCICE 3
 void week(int a){
-    //TODO
+        switch(a){
+    case 1:
+        printf("lundi\n");
+        break;
+    case 2:
+        printf("mardi \n");
+        break;
+    case 3:
+        printf("mercredi \n");
+        break;
+    case 4:
+        printf("jeudi \n");
+        break;
+    case 5:
+        printf("vendredi \n");
+        break;
+    case 6:
+        printf("samedi \n");
+        break;
+    case 7:
+        printf("Dimanche \n");
+    }
 }
 
 //EXERCICE 4
 void week_if(int a){
-    //TODO
+    if (a == 1){
+        printf("Lundi\n");
+    }
+    else if (a == 2){
+        printf("Mardi \n");
+    }
+    else if (a == 3){
+        printf("Mercredi \n");
+    }
+    else if (a == 4){
+        printf("Jeudi \n");
+    }
+    else if( a == 5){
+         printf("Vendredi \n");
+    }
+     else if( a == 6){
+         printf("Samedi \n");
+    }
+     else if( a == 7){
+         printf("Dimanche \n");
+    }
 }
 
 //EXERCICE 5
